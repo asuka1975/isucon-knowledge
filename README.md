@@ -31,3 +31,4 @@ events {
   worker_connections 1024;
 }
   ```
+  - mysql, nginxの最適な設定も考えねば、connection poolとか、、、
