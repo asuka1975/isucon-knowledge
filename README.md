@@ -30,5 +30,7 @@ events {
   worker_processes auto;
   worker_connections 1024;
 }
+
+    多分ここらへんの設定は負荷分散しない場合はコア数に余裕を持って、負荷分散する場合はマックスまで引き上げるべき
   ```
   - mysql, nginxの最適な設定も考えねば、connection poolとか、、、
